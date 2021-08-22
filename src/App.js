@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import { useDispatch, useSelector } from "react-redux";
+import Card from './components/Card/Card';
+import { useEffect } from "react";
+import { getInfo } from "./store/acyncAction/getInfo";
+import style from './App.module.css';
+
 
 function App() {
+  const data = useSelector(state => state.topReducer);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getInfo({ lang: 'all', pages: 10 }));
+  }, [dispatch]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+        {
+          data.length > 0
+            ? <div className={style.content}>{data[0].items.map((item, id) => {
+              return <Card item={item} key={'card_' + id}></Card>;
+            })}</div>
+            : <div>Загрузка...</div>
+        }
     </div>
   );
 }
