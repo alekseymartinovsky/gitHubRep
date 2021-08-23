@@ -4,8 +4,8 @@
     width: 300px;
     border: 1px solid black;
     padding: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 5px;
     margin: 30px;
 }
@@ -35,11 +35,43 @@
 }
 
 .card_language{
+    text-decoration: underline;
+}
 
+.card_description{
+    font-style: italic;
+    overflow: auto;
+    margin: 5px 0px;
+}
+
+@media (min-width: 768px) {
+    .card_description{
+        max-height: 6em;
+    }
+}
+
+.card_stars{
+    color: rgb(220, 88, 0);
+    height: 20px;
+    display: flex;
+}
+
+.card_stars_img{
+
+}
+
+.card_stars_img img{
+    width: 17px;
+    height: 17px;
+}
+
+.card_stars_num{
+    margin-left: 10px;
+    font-weight: 700;
 }
 
 .card_href{
     text-decoration: none;
     color: blue;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }

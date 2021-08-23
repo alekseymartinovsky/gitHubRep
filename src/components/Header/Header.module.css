@@ -1,7 +1,14 @@
 .header{
     background: black;   
     color: white;
-    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .header{
+        position: fixed;
+    }
 }
 
 .header_title{
@@ -26,7 +33,7 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    height: 22px;
+
 }
 
 .header_form_cell{

@@ -12,7 +12,6 @@ const Header = () => {
         { name: 'java' },
         { name: 'c#' },
         { name: 'c' },
-        { name: 'c++' },
         { name: 'php' },
         { name: 'r' },
         { name: 'swift' },
