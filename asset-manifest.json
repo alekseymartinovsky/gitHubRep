@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.dcef2ba5.chunk.css",
-    "main.js": "/my-app/static/js/main.76eaea72.chunk.js",
-    "main.js.map": "/my-app/static/js/main.76eaea72.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.d8db6df1.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.d8db6df1.js.map",
-    "static/js/2.c0014cea.chunk.js": "/my-app/static/js/2.c0014cea.chunk.js",
-    "static/js/2.c0014cea.chunk.js.map": "/my-app/static/js/2.c0014cea.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.dcef2ba5.chunk.css.map": "/my-app/static/css/main.dcef2ba5.chunk.css.map",
-    "static/js/2.c0014cea.chunk.js.LICENSE.txt": "/my-app/static/js/2.c0014cea.chunk.js.LICENSE.txt"
+    "main.css": "/gitHubRep/static/css/main.dcef2ba5.chunk.css",
+    "main.js": "/gitHubRep/static/js/main.76eaea72.chunk.js",
+    "main.js.map": "/gitHubRep/static/js/main.76eaea72.chunk.js.map",
+    "runtime-main.js": "/gitHubRep/static/js/runtime-main.f620f324.js",
+    "runtime-main.js.map": "/gitHubRep/static/js/runtime-main.f620f324.js.map",
+    "static/js/2.c0014cea.chunk.js": "/gitHubRep/static/js/2.c0014cea.chunk.js",
+    "static/js/2.c0014cea.chunk.js.map": "/gitHubRep/static/js/2.c0014cea.chunk.js.map",
+    "index.html": "/gitHubRep/index.html",
+    "static/css/main.dcef2ba5.chunk.css.map": "/gitHubRep/static/css/main.dcef2ba5.chunk.css.map",
+    "static/js/2.c0014cea.chunk.js.LICENSE.txt": "/gitHubRep/static/js/2.c0014cea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8db6df1.js",
+    "static/js/runtime-main.f620f324.js",
     "static/js/2.c0014cea.chunk.js",
     "static/css/main.dcef2ba5.chunk.css",
     "static/js/main.76eaea72.chunk.js"
